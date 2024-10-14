@@ -1,0 +1,123 @@
+/* Extra small devices (max-width: 320px) */
+@media only screen and (max-width: 320px) {
+    body {
+        width: 100%;
+    }
+    .site-nav ul {
+        flex-direction: column;
+    }
+    .site-nav a {
+        font-size: 14px; /* Smaller text for tiny screens */
+    }
+    .logo {
+        width: 150px !important;
+        height: 100px !important;
+        margin-left: -80px !important;
+    }
+    .containerint {
+        margin-top: 300px !important;
+        height: 450px !important;
+        width: 250px;
+    }
+    .containerint h1 {
+        font-size: 18px !important;
+        margin-left: -20px;
+    }
+    .isotope-card {
+        width: 180px !important;
+        height: 300px !important;
+    }
+    .col-10 h1 {
+        font-size: 18px !important;
+    }
+    .col-10 p {
+        margin-right: 20px;
+    }
+}
+
+/* Large mobile devices (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    .site-nav ul {
+        flex-direction: column;
+    }
+    .logo {
+        margin-left: -90px !important;
+        font-size: 22px !important;
+        width: 160px !important;
+    }
+    .hero {
+        height: 85vh;
+    }
+    .containerint {
+
+        height: 450px !important;
+        width: 400px;
+    }
+    .containerint h1 {
+        font-size: 18px !important;
+        margin-left: -20px;
+    }
+    .hero h2 {
+        font-size: 20px !important;
+        margin-left: -10px !important;
+    }
+    .hero p {
+        font-size: 14px !important;
+    }
+    .grid-container {
+        margin-top: -20px !important;
+        margin-left: 20px !important;
+    }
+    .isotope-card {
+        width: 270px !important;
+        height: 400px !important;
+    }
+}
+
+/* Tablets in landscape (769px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .site-nav ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .site-nav a {
+        font-size: 18px;
+    }
+    .logo {
+        margin-left: -50px !important;
+        font-size: 24px !important;
+        width: 200px !important;
+    }
+    .hero {
+        height: 80vh;
+    }
+    .hero h2 {
+        font-size: 22px !important;
+    }
+    .grid-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .containerint {
+
+        height: 450px !important;
+        width: 100%;
+    }
+    .containerint h1 {
+        font-size: 18px !important;
+        margin-left: -20px;
+    }
+    .grid-container {
+        width: 100%;
+        margin-top: -20px !important;
+        margin-left: 20px !important;
+    }
+    .isotope-card {
+        width: 100%;
+        height: 450px !important;
+    }
+    .col-10 h1 {
+        font-size: 24px !important;
+        margin-left: 20px !important;
+    }
+}

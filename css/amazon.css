@@ -1,0 +1,2317 @@
+/* Add this CSS code to your existing stylesheet */
+
+/* Responsive Design */
+
+/* For mobile devices (max-width: 767px) */
+@media only screen and (min-width: 345px) and (max-width: 440px)  {
+    /* Adjust the navigation menu */
+    .site-nav {
+      margin-top: 0;
+    }
+    .site-nav .menu-bg-wrap {
+      padding: 20px;
+    }
+    .site-nav ul {
+      flex-direction: column;
+    }
+    .site-nav li {
+      margin-bottom: 20px;
+    }
+    .site-nav a {
+      font-size: 16px;
+    }
+    .logo{
+        margin-top: -20px !important;
+        margin-left: -100px !important;
+        font-size: 20px !important;
+        width: 50px !important;
+
+    }
+  .site-mobile-menu-header{
+    margin-top: -500px !important;
+    margin-right: -300px !important;
+  }
+    /* Adjust the hero section */
+    .hero {
+      height: 90vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 20px;
+    }
+    .hero h2 {
+        margin-left: -15px !important;
+      font-size: 18px !important;
+    }
+    .hero h4 {
+        margin-top: 200px;
+        margin-left: -15px !important;
+      font-size: 15px !important;
+    }
+    .hero p {
+      font-size: 13px !important;
+      margin-left: -15px !important;
+    }
+    .hero btn{
+
+    }
+    .donation-form{
+        height: 550px !important;
+    }
+    .donation-form h3{
+      font-size: 20px !important;
+      margin-left: -10px !important;
+    }
+    .donation-form p{
+        font-size: 13px !important;
+        margin-left: -10px !important;
+      }
+  
+    /* Adjust the section1 */
+    .section1 {
+      padding: 20px;
+    }
+    .section1 h2 {
+      font-size: 24px;
+    }
+    .section1 p {
+      font-size: 16px;
+    }
+  
+    /* Adjust the section bg-light */
+    .section.bg-light {
+      padding: 20px;
+    }
+    .section.bg-light h2 {
+      font-size: 24px;
+    }
+    .section.bg-light p {
+      font-size: 16px;
+    }
+    .sec-instagram{
+        display: none !important;
+    }
+  
+    /* Adjust the ebook-intro1 */
+    .ebook-intro1 {
+        margin-left: -20px;
+      padding: 20px;
+      margin-bottom: -20px;
+    }
+    .ebook-intro1 h1 {
+      font-size: 20px !important;
+    }
+    .ebook-intro1 p {
+      font-size: 12px !important;
+    }
+    .feature1 {
+        margin-left: 20px;
+        height: 350px;
+        margin-bottom:100px ;
+    }
+    .feature1 p {
+        font-size: 13px !important;
+        color: #10375C;
+      }
+      .feature1 h2{
+      
+        font-size: 15px !important;
+      }
+  
+    /* Adjust the services1 */
+    .services1 {
+        margin-top: 800px;
+      padding: 20px;
+      width: 100%;
+    }
+    .services1 h1 {
+        margin-top: 800px;
+      padding: 20px;
+      width: 100%;
+    }
+    .services1 h2 {
+      font-size: 24px;
+    }
+    .services1 p {
+      font-size: 16px;
+    }
+    .container h2,h3{
+        font-size: 20px !important;
+        margin-left: 50px;
+    }
+    .container p{
+        margin-left: 50px;
+        font-size: 15px !important;
+    }
+    .card{
+        height: 400px;
+    }
+  .card h5{
+    font-size: 20px !important ;
+  }
+  .card p{
+    font-size: 12px !important;
+  }
+  .testimonials-v2, .photoslider {
+    display: none !important;
+  }
+    /* Adjust the photoslider */
+    .photoslider {
+        width: 100% !important;
+        height: 100px;
+      padding: 20px;
+      
+    }
+    .photoslider h2 {
+      font-size: 20px !important;
+      width: 200px !important;
+      height: 200px;
+      margin-left: -160px;
+    }
+    .photoslider p {
+      font-size: 12px !important;
+      width: 200px !important;
+      height: 200px;
+      margin-left: -150px !important;
+      margin-top: -150px;
+    }
+  
+    /* Adjust the testimonials-v2 */
+    .testimonials-v2 {
+      padding: 20px;
+      margin-top: 900px;
+      height: 200px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 24px;
+    }
+    .testimonials-v2 p {
+      
+        font-size: 16px;
+    }
+    .testimonial-v2 img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+      }
+    .container-fluid h1 {
+        margin-top: 1000px;
+        font-size: 20px !important;
+    }
+  
+    /* Adjust the site-footer */
+    .site-footer {
+      padding: 20px;
+    }
+    .site-footer h3 {
+      font-size: 18px;
+    }
+    .site-footer p {
+      font-size: 14px;
+    }
+  }
+  /* For mobile devices (max-width: 430px) */
+@media only screen and (max-width: 414px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+        margin-top: 0;
+      }
+      .site-nav .menu-bg-wrap {
+        padding: 20px;
+      }
+      .site-nav ul {
+        flex-direction: column;
+      }
+      .site-nav li {
+        margin-bottom: 20px;
+      }
+      .site-nav a {
+        font-size: 16px;
+      }
+      .logo{
+          margin-top: -20px !important;
+          margin-left: -100px !important;
+          font-size: 20px !important;
+          width: 50px !important;
+  
+      }
+    .site-mobile-menu-header{
+      margin-top: -500px !important;
+      margin-right: -300px !important;
+    }
+      /* Adjust the hero section */
+      .hero {
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+      }
+      .hero .container {
+        padding: 20px;
+      }
+      .hero h2 {
+          margin-left: -10px !important;
+        font-size: 18px !important;
+      }
+      .hero h4 {
+          margin-top: 100px;
+          margin-left: -10px !important;
+        font-size: 15px !important;
+      }
+      .hero p {
+        font-size: 13px !important;
+        margin-left: -10px !important;
+      }
+      
+      .donation-form{
+          height: 550px !important;
+      }
+      .donation-form h3{
+        font-size: 20px !important;
+        margin-left: -10px !important;
+      }
+      .donation-form p{
+          font-size: 13px !important;
+          margin-left: -10px !important;
+        }
+     .containerint{
+        margin-right: 50px !important;
+     }
+     .containerint h1{
+        font-size: 20px !important;
+     }
+     .containerint .input-row{
+        width: 300px !important;
+     }
+   .container .image-fluid{
+    width: 400px !important;
+   }
+      /* Adjust the section1 */
+      .section1 {
+        padding: 20px;
+      }
+      .section1 h2 {
+        font-size: 24px;
+      }
+      .section1 p {
+        font-size: 16px;
+      }
+      .sec-instagram{
+        display: none !important;
+    }
+    
+      /* Adjust the section bg-light */
+      .section.bg-light {
+        padding: 20px;
+      }
+      .section.bg-light h2 {
+        font-size: 24px;
+      }
+      .section.bg-light p {
+        font-size: 16px;
+      }
+    
+      /* Adjust the ebook-intro1 */
+      .ebook-intro1 {
+          margin-left: -20px;
+        padding: 20px;
+        margin-bottom: -20px;
+      }
+      .ebook-intro1 h1 {
+        font-size: 20px !important;
+      }
+      .ebook-intro1 p {
+        font-size: 12px !important;
+      }
+      .feature1 {
+          margin-left: 20px;
+          height: 350px;
+          margin-bottom:100px ;
+      }
+      .feature1 p {
+          font-size: 13px !important;
+          color: #10375C;
+        }
+        .feature1 h2{
+        
+          font-size: 15px !important;
+        }
+    
+      /* Adjust the services1 */
+      .services1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h2 {
+        font-size: 24px;
+      }
+      .services1 p {
+        font-size: 16px;
+      }
+      .container h2,h3{
+          font-size: 20px !important;
+          margin-left: 50px;
+      }
+      .container p{
+          margin-left: 50px;
+          font-size: 15px !important;
+      }
+    .card h5{
+      font-size: 20px !important ;
+    }
+    .card p{
+      font-size: 12px !important;
+    }
+      /* Adjust the photoslider */
+      .photoslider {
+          width: 100% !important;
+          height: 100px;
+        padding: 20px;
+        
+      }
+      .testimonials-v2, .photoslider {
+        display: none !important;
+      }
+      .photoslider h2 {
+        font-size: 20px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -160px;
+      }
+      .photoslider p {
+        font-size: 12px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -150px !important;
+        margin-top: -150px;
+      }
+    
+      /* Adjust the testimonials-v2 */
+      .testimonials-v2 {
+        padding: 20px;
+        margin-top: 900px;
+        height: 200px;
+      }
+      .testimonials-v2 h2 {
+        font-size: 24px;
+      }
+      .testimonials-v2 p {
+        
+          font-size: 16px;
+      }
+      .testimonial-v2 img {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+        }
+      .container-fluid h1 {
+          margin-top: 1000px;
+          font-size: 20px !important;
+      }
+    
+      /* Adjust the site-footer */
+      .site-footer {
+        padding: 20px;
+      }
+      .site-footer h3 {
+        font-size: 18px;
+      }
+      .site-footer p {
+        font-size: 14px;
+      }
+  }
+  @media only screen and (max-width: 430px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+        margin-top: 0;
+      }
+      .site-nav .menu-bg-wrap {
+        padding: 20px;
+      }
+      .site-nav ul {
+        flex-direction: column;
+      }
+      .site-nav li {
+        margin-bottom: 20px;
+      }
+      .site-nav a {
+        font-size: 16px;
+      }
+      .logo{
+          margin-top: -20px !important;
+          margin-left: -100px !important;
+          font-size: 20px !important;
+          width: 50px !important;
+  
+      }
+    .site-mobile-menu-header{
+      margin-top: -500px !important;
+      margin-right: -300px !important;
+    }
+      /* Adjust the hero section */
+      .hero {
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+      }
+      .hero .container {
+        padding: 20px;
+      }
+      .hero h2 {
+          margin-left: -10px !important;
+        font-size: 18px !important;
+      }
+      .hero h4 {
+          margin-top: 100px;
+          margin-left: -10px !important;
+        font-size: 15px !important;
+      }
+      .hero p {
+        font-size: 13px !important;
+        margin-left: -10px !important;
+      }
+      
+      .donation-form{
+          height: 550px !important;
+      }
+      .donation-form h3{
+        font-size: 20px !important;
+        margin-left: -10px !important;
+      }
+      .donation-form p{
+          font-size: 13px !important;
+          margin-left: -10px !important;
+        }
+     .containerint{
+        margin-right: 50px !important;
+     }
+     .containerint h1{
+        font-size: 20px !important;
+     }
+     .containerint .input-row{
+        width: 300px !important;
+     }
+   .container .image-fluid{
+    width: 400px !important;
+   }
+      /* Adjust the section1 */
+      .section1 {
+        padding: 20px;
+      }
+      .section1 h2 {
+        font-size: 24px;
+      }
+      .section1 p {
+        font-size: 16px;
+      }
+      .sec-instagram{
+        display: none !important;
+    }
+    
+      /* Adjust the section bg-light */
+      .section.bg-light {
+        padding: 20px;
+      }
+      .section.bg-light h2 {
+        font-size: 24px;
+      }
+      .section.bg-light p {
+        font-size: 16px;
+      }
+    
+      /* Adjust the ebook-intro1 */
+      .ebook-intro1 {
+          margin-left: -20px;
+        padding: 20px;
+        margin-bottom: -20px;
+      }
+      .ebook-intro1 h1 {
+        font-size: 20px !important;
+      }
+      .ebook-intro1 p {
+        font-size: 12px !important;
+      }
+      .feature1 {
+          margin-left: 20px;
+          height: 350px;
+          margin-bottom:100px ;
+      }
+      .feature1 p {
+          font-size: 13px !important;
+          color: #10375C;
+        }
+        .feature1 h2{
+        
+          font-size: 15px !important;
+        }
+    
+      /* Adjust the services1 */
+      .services1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h2 {
+        font-size: 24px;
+      }
+      .services1 p {
+        font-size: 16px;
+      }
+      .container h2,h3{
+          font-size: 20px !important;
+          margin-left: 50px;
+      }
+      .container p{
+          margin-left: 50px;
+          font-size: 15px !important;
+      }
+      .card{
+        height: 400px !important;
+      }
+    .card h5{
+      font-size: 20px !important ;
+    }
+    .card p{
+      font-size: 16px !important;
+      margin-right: 50px !important;
+    }
+   
+      /* Adjust the photoslider */
+      .photoslider {
+          width: 100% !important;
+          height: 100px;
+        padding: 20px;
+        
+      }
+      .testimonials-v2, .photoslider {
+        display: none !important;
+      }
+      .photoslider h2 {
+        font-size: 20px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -160px;
+      }
+      .photoslider p {
+        font-size: 12px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -150px !important;
+        margin-top: -150px;
+      }
+    
+      /* Adjust the testimonials-v2 */
+      .testimonials-v2 {
+        padding: 20px;
+        margin-top: 900px;
+        height: 200px;
+      }
+      .testimonials-v2 h2 {
+        font-size: 24px;
+      }
+      .testimonials-v2 p {
+        
+          font-size: 16px;
+      }
+      .testimonial-v2 img {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+        }
+      .container-fluid h1 {
+          margin-top: 1000px;
+          font-size: 20px !important;
+      }
+    
+      /* Adjust the site-footer */
+      .site-footer {
+        padding: 20px;
+      }
+      .site-footer h3 {
+        font-size: 18px;
+      }
+      .site-footer p {
+        font-size: 14px;
+      }
+  }
+  @media only screen and (max-width: 360px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+        margin-top: 0;
+      }
+      .site-nav .menu-bg-wrap {
+        padding: 20px;
+      }
+      .site-nav ul {
+        flex-direction: column;
+      }
+      .site-nav li {
+        margin-bottom: 20px;
+      }
+      .site-nav a {
+        font-size: 16px;
+      }
+      .logo{
+          margin-top: -20px !important;
+          margin-left: -100px !important;
+          font-size: 20px !important;
+          width: 50px !important;
+  
+      }
+    .site-mobile-menu-header{
+      margin-top: -500px !important;
+      margin-right: -300px !important;
+    }
+      /* Adjust the hero section */
+      .hero {
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+      }
+      .hero .container {
+        padding: 20px;
+      }
+      .hero h2 {
+          margin-left: -10px !important;
+        font-size: 18px !important;
+      }
+      .hero h4 {
+          margin-top: 100px;
+          margin-left: -10px !important;
+        font-size: 15px !important;
+      }
+      .hero p {
+        font-size: 13px !important;
+        margin-left: -10px !important;
+      }
+      
+      .donation-form{
+          height: 550px !important;
+      }
+      .donation-form h3{
+        font-size: 20px !important;
+        margin-left: -10px !important;
+      }
+      .donation-form p{
+          font-size: 13px !important;
+          margin-left: -10px !important;
+        }
+     .containerint{
+        margin-right: 50px !important;
+     }
+     .containerint h1{
+        font-size: 20px !important;
+     }
+     .containerint .input-row{
+        width: 300px !important;
+     }
+   .container .image-fluid{
+    width: 400px !important;
+   }
+      /* Adjust the section1 */
+      .section1 {
+        padding: 20px;
+      }
+      .section1 h2 {
+        font-size: 24px;
+      }
+      .section1 p {
+        font-size: 16px;
+      }
+      .sec-instagram{
+        display: none !important;
+    }
+    
+      /* Adjust the section bg-light */
+      .section.bg-light {
+        padding: 20px;
+      }
+      .section.bg-light h2 {
+        font-size: 24px;
+      }
+      .section.bg-light p {
+        font-size: 16px;
+      }
+    
+      /* Adjust the ebook-intro1 */
+      .ebook-intro1 {
+          margin-left: -20px;
+        padding: 20px;
+        margin-bottom: -20px;
+      }
+      .ebook-intro1 h1 {
+        font-size: 20px !important;
+      }
+      .ebook-intro1 p {
+        font-size: 12px !important;
+      }
+      .feature1 {
+          margin-left: 20px;
+          height: 350px;
+          margin-bottom:100px ;
+      }
+      .feature1 p {
+          font-size: 13px !important;
+          color: #10375C;
+        }
+        .feature1 h2{
+        
+          font-size: 15px !important;
+        }
+    
+      /* Adjust the services1 */
+      .services1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h2 {
+        font-size: 24px;
+      }
+      .services1 p {
+        font-size: 16px;
+      }
+      .container h2,h3{
+          font-size: 20px !important;
+          margin-left: 50px;
+      }
+      .container p{
+          margin-left: 50px;
+          font-size: 15px !important;
+      }
+      .card{
+        height: 400px !important;
+      }
+    .card h5{
+      font-size: 17px !important ;
+    }
+    .card p{
+      font-size: 12px !important;
+      margin-right: 50px !important;
+    }
+   
+      /* Adjust the photoslider */
+      .photoslider {
+          width: 100% !important;
+          height: 100px;
+        padding: 20px;
+        
+      }
+      .testimonials-v2, .photoslider {
+        display: none !important;
+      }
+      .photoslider h2 {
+        font-size: 20px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -160px;
+      }
+      .photoslider p {
+        font-size: 12px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -150px !important;
+        margin-top: -150px;
+      }
+    
+      /* Adjust the testimonials-v2 */
+      .testimonials-v2 {
+        padding: 20px;
+        margin-top: 900px;
+        height: 200px;
+      }
+      .testimonials-v2 h2 {
+        font-size: 24px;
+      }
+      .testimonials-v2 p {
+        
+          font-size: 16px;
+      }
+      .testimonial-v2 img {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+        }
+      .container-fluid h1 {
+          margin-top: 1000px;
+          font-size: 20px !important;
+      }
+    
+      /* Adjust the site-footer */
+      .site-footer {
+        padding: 20px;
+      }
+      .site-footer h3 {
+        font-size: 18px;
+      }
+      .site-footer p {
+        font-size: 14px;
+      }
+  }
+  @media only screen and (max-width: 412px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+        margin-top: 0;
+      }
+      .site-nav .menu-bg-wrap {
+        padding: 20px;
+      }
+      .site-nav ul {
+        flex-direction: column;
+      }
+      .site-nav li {
+        margin-bottom: 20px;
+      }
+      .site-nav a {
+        font-size: 16px;
+      }
+      .logo{
+          margin-top: -20px !important;
+          margin-left: -100px !important;
+          font-size: 20px !important;
+          width: 50px !important;
+  
+      }
+    .site-mobile-menu-header{
+      margin-top: -500px !important;
+      margin-right: -300px !important;
+    }
+      /* Adjust the hero section */
+      .hero {
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+      }
+      .hero .container {
+        padding: 20px;
+      }
+      .hero h2 {
+          margin-left: -10px !important;
+        font-size: 18px !important;
+      }
+      .hero h4 {
+          margin-top: 100px;
+          margin-left: -10px !important;
+        font-size: 15px !important;
+      }
+      .hero p {
+        font-size: 13px !important;
+        margin-left: -10px !important;
+      }
+      
+      .donation-form{
+          height: 550px !important;
+      }
+      .donation-form h3{
+        font-size: 20px !important;
+        margin-left: -10px !important;
+      }
+      .donation-form p{
+          font-size: 13px !important;
+          margin-left: -10px !important;
+        }
+     .containerint{
+        margin-right: 50px !important;
+     }
+     .containerint h1{
+        font-size: 20px !important;
+     }
+     .containerint .input-row{
+        width: 300px !important;
+     }
+   .container .image-fluid{
+    width: 400px !important;
+   }
+      /* Adjust the section1 */
+      .section1 {
+        padding: 20px;
+      }
+      .section1 h2 {
+        font-size: 24px;
+      }
+      .section1 p {
+        font-size: 16px;
+      }
+      .sec-instagram{
+        display: none !important;
+    }
+    
+      /* Adjust the section bg-light */
+      .section.bg-light {
+        padding: 20px;
+      }
+      .section.bg-light h2 {
+        font-size: 24px;
+      }
+      .section.bg-light p {
+        font-size: 16px;
+      }
+    
+      /* Adjust the ebook-intro1 */
+      .ebook-intro1 {
+          margin-left: -20px;
+        padding: 20px;
+        margin-bottom: -20px;
+      }
+      .ebook-intro1 h1 {
+        font-size: 20px !important;
+      }
+      .ebook-intro1 p {
+        font-size: 12px !important;
+      }
+      .feature1 {
+          margin-left: 20px;
+          height: 350px;
+          margin-bottom:100px ;
+      }
+      .feature1 p {
+          font-size: 13px !important;
+          color: #10375C;
+        }
+        .feature1 h2{
+        
+          font-size: 15px !important;
+        }
+    
+      /* Adjust the services1 */
+      .services1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h2 {
+        font-size: 24px;
+      }
+      .services1 p {
+        font-size: 16px;
+      }
+      .container h2,h3{
+          font-size: 20px !important;
+          margin-left: 50px;
+      }
+      .container p{
+          margin-left: 50px;
+          font-size: 15px !important;
+      }
+      .card{
+        height: 400px !important;
+      }
+    .card h5{
+      font-size: 17px !important ;
+    }
+    .card p{
+      font-size: 12px !important;
+      margin-right: 50px !important;
+    }
+   
+      /* Adjust the photoslider */
+      .photoslider {
+          width: 100% !important;
+          height: 100px;
+        padding: 20px;
+        
+      }
+      .testimonials-v2, .photoslider {
+        display: none !important;
+      }
+      .photoslider h2 {
+        font-size: 20px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -160px;
+      }
+      .photoslider p {
+        font-size: 12px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -150px !important;
+        margin-top: -150px;
+      }
+    
+      /* Adjust the testimonials-v2 */
+      .testimonials-v2 {
+        padding: 20px;
+        margin-top: 900px;
+        height: 200px;
+      }
+      .testimonials-v2 h2 {
+        font-size: 24px;
+      }
+      .testimonials-v2 p {
+        
+          font-size: 16px;
+      }
+      .testimonial-v2 img {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+        }
+      .container-fluid h1 {
+          margin-top: 1000px;
+          font-size: 20px !important;
+      }
+    
+      /* Adjust the site-footer */
+      .site-footer {
+        padding: 20px;
+      }
+      .site-footer h3 {
+        font-size: 18px;
+      }
+      .site-footer p {
+        font-size: 14px;
+      }
+  }
+  
+  
+   @media only screen and (max-width: 360px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+        margin-top: 0;
+      }
+      .site-nav .menu-bg-wrap {
+        padding: 20px;
+      }
+      .site-nav ul {
+        flex-direction: column;
+      }
+      .site-nav li {
+        margin-bottom: 20px;
+      }
+      .site-nav a {
+        font-size: 16px;
+      }
+      .logo{
+          margin-top: -20px !important;
+          margin-left: -100px !important;
+          font-size: 20px !important;
+          width: 50px !important;
+  
+      }
+    .site-mobile-menu-header{
+      margin-top: -500px !important;
+      margin-right: -300px !important;
+    }
+      /* Adjust the hero section */
+      .hero {
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+      }
+      .hero .container {
+        padding: 20px;
+      }
+      .hero h2 {
+          margin-left: -10px !important;
+        font-size: 18px !important;
+      }
+      .hero h4 {
+          margin-top: 100px;
+          margin-left: -10px !important;
+        font-size: 15px !important;
+      }
+      .hero p {
+        font-size: 13px !important;
+        margin-left: -10px !important;
+      }
+      
+      .donation-form{
+          height: 550px !important;
+      }
+      .donation-form h3{
+        font-size: 20px !important;
+        margin-left: -10px !important;
+      }
+      .donation-form p{
+          font-size: 13px !important;
+          margin-left: -10px !important;
+        }
+     .containerint{
+        margin-right: 50px !important;
+     }
+     .containerint h1{
+        font-size: 20px !important;
+     }
+     .containerint .input-row{
+        width: 300px !important;
+     }
+   .container .image-fluid{
+    width: 400px !important;
+   }
+      /* Adjust the section1 */
+      .section1 {
+        padding: 20px;
+      }
+      .section1 h2 {
+        font-size: 24px;
+      }
+      .section1 p {
+        font-size: 16px;
+      }
+      .sec-instagram{
+        display: none !important;
+    }
+    
+      /* Adjust the section bg-light */
+      .section.bg-light {
+        padding: 20px;
+      }
+      .section.bg-light h2 {
+        font-size: 24px;
+      }
+      .section.bg-light p {
+        font-size: 16px;
+      }
+    
+      /* Adjust the ebook-intro1 */
+      .ebook-intro1 {
+          margin-left: -20px;
+        padding: 20px;
+        margin-bottom: -20px;
+      }
+      .ebook-intro1 h1 {
+        font-size: 20px !important;
+      }
+      .ebook-intro1 p {
+        font-size: 12px !important;
+      }
+      .feature1 {
+          margin-left: 20px;
+          height: 350px;
+          margin-bottom:100px ;
+      }
+      .feature1 p {
+          font-size: 13px !important;
+          color: #10375C;
+        }
+        .feature1 h2{
+        
+          font-size: 15px !important;
+        }
+    
+      /* Adjust the services1 */
+      .services1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h1 {
+          margin-top: 800px;
+        padding: 20px;
+        width: 100%;
+      }
+      .services1 h2 {
+        font-size: 24px;
+      }
+      .services1 p {
+        font-size: 16px;
+      }
+      .container h2,h3{
+          font-size: 20px !important;
+          margin-left: 50px;
+      }
+      .container p{
+          margin-left: 50px;
+          font-size: 15px !important;
+      }
+      .card{
+        height: 400px !important;
+      }
+    .card h5{
+      font-size: 17px !important ;
+    }
+    .card p{
+      font-size: 12px !important;
+      margin-right: 50px !important;
+    }
+   
+      /* Adjust the photoslider */
+      .photoslider {
+          width: 100% !important;
+          height: 100px;
+        padding: 20px;
+        
+      }
+      .testimonials-v2, .photoslider {
+        display: none !important;
+      }
+      .photoslider h2 {
+        font-size: 20px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -160px;
+      }
+      .photoslider p {
+        font-size: 12px !important;
+        width: 200px !important;
+        height: 200px;
+        margin-left: -150px !important;
+        margin-top: -150px;
+      }
+    
+      /* Adjust the testimonials-v2 */
+      .testimonials-v2 {
+        padding: 20px;
+        margin-top: 900px;
+        height: 200px;
+      }
+      .testimonials-v2 h2 {
+        font-size: 24px;
+      }
+      .testimonials-v2 p {
+        
+          font-size: 16px;
+      }
+      .testimonial-v2 img {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+        }
+      .container-fluid h1 {
+          margin-top: 1000px;
+          font-size: 20px !important;
+      }
+    
+      /* Adjust the site-footer */
+      .site-footer {
+        padding: 20px;
+      }
+      .site-footer h3 {
+        font-size: 18px;
+      }
+      .site-footer p {
+        font-size: 14px;
+      }
+  }
+  @media only screen and (max-width: 774px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+        margin-top: 0;
+      }
+      .site-nav .menu-bg-wrap {
+        padding: 20px;
+      }
+      .site-nav ul {
+        flex-direction: column;
+      }
+      .site-nav li {
+        margin-bottom: 20px;
+      }
+      .site-nav a {
+        font-size: 16px;
+      }
+      .logo{
+          margin-top: -20px !important;
+          margin-left: -100px !important;
+          font-size: 20px !important;
+          width: 50px !important;
+  
+      }
+    .site-mobile-menu-header{
+      margin-top: -500px !important;
+      margin-right: -300px !important;
+    }
+  
+    /* Adjust the hero section */
+    .hero {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 20px;
+    }
+    .hero h4 {
+        margin-top: 100px;
+        margin-left: -10px !important;
+      font-size: 15px !important;
+    }
+    .sec-instagram{
+        display: none !important;
+    }
+    .hero h2 {
+
+      font-size: 25px !important;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the section1 */
+    .section1 {
+      padding: 20px;
+    }
+    .section1 h2 {
+      font-size: 30px;
+    }
+    .section1 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the section bg-light */
+    .section.bg-light {
+      padding: 20px;
+    }
+    .section.bg-light h2 {
+      font-size: 30px;
+    }
+    .section.bg-light p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the ebook-intro1 */
+    .ebook-intro1 {
+      padding: 20px;
+      margin-left: 100px !important;
+    }
+    .ebook-intro1 h1 {
+      font-size: 30px;
+    }
+    .ebook-intro1 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the services1 */
+    .services1 {
+      padding: 20px;
+    }
+    .services1 h2 {
+      font-size: 30px;
+    }
+    .services1 p {
+      font-size: 18px;
+    }
+  
+    .testimonial-v2, .photoslider{
+        display: none !important;
+    }
+    /* Adjust the photoslider */
+    .photoslider {
+      padding: 20px;
+    }
+    .photoslider h2 {
+      font-size: 30px;
+    }
+    .photoslider p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the testimonials-v2 */
+    .testimonials-v2 {
+      padding: 20px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 30px;
+    }
+    .testimonials-v2 p {
+      font-size: 18px;
+    }
+    .container-fluid h1 {
+        margin-top: 700px;
+        font-size: 20px !important;
+    }
+    .card{
+        width: 500px !important;
+        margin-left: 100px !important;
+    }
+    .card a{
+        margin-left: 200px !important;
+    }
+    .card img{
+        margin-left: 200px !important;
+    }
+    /* Adjust the site-footer */
+    .site-footer {
+      padding: 20px;
+    }
+    .site-footer h3 {
+      font-size: 20px;
+    }
+    .site-footer p {
+      font-size: 16px;
+    }
+  }
+  /* For tablet devices (max-width: 991px) */
+  @media only screen and (max-width: 786px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+        margin-top: 0;
+      }
+      .site-nav .menu-bg-wrap {
+        padding: 20px;
+      }
+      .site-nav ul {
+        flex-direction: column;
+      }
+      .site-nav li {
+        margin-bottom: 20px;
+      }
+      .site-nav a {
+        font-size: 16px;
+      }
+      .logo{
+          margin-top: -20px !important;
+          margin-left: -100px !important;
+          font-size: 20px !important;
+          width: 50px !important;
+  
+      }
+    .site-mobile-menu-header{
+      margin-top: -500px !important;
+      margin-right: -300px !important;
+    }
+  
+    /* Adjust the hero section */
+    .hero {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 20px;
+    }
+    .hero h4 {
+        margin-top: 100px;
+        margin-left: -10px !important;
+      font-size: 15px !important;
+    }
+    .sec-instagram{
+        display: none !important;
+    }
+    .hero h2 {
+
+      font-size: 25px !important;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the section1 */
+    .section1 {
+      padding: 20px;
+    }
+    .section1 h2 {
+      font-size: 30px;
+    }
+    .section1 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the section bg-light */
+    .section.bg-light {
+      padding: 20px;
+    }
+    .section.bg-light h2 {
+      font-size: 30px;
+    }
+    .section.bg-light p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the ebook-intro1 */
+    .ebook-intro1 {
+      padding: 20px;
+      margin-left: 100px !important;
+    }
+    .ebook-intro1 h1 {
+      font-size: 30px;
+    }
+    .ebook-intro1 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the services1 */
+    .services1 {
+      padding: 20px;
+    }
+    .services1 h2 {
+      font-size: 30px;
+    }
+    .services1 p {
+      font-size: 18px;
+    }
+  
+    .testimonial-v2, .photoslider{
+        display: none !important;
+    }
+    /* Adjust the photoslider */
+    .photoslider {
+      padding: 20px;
+    }
+    .photoslider h2 {
+      font-size: 30px;
+    }
+    .photoslider p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the testimonials-v2 */
+    .testimonials-v2 {
+      padding: 20px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 30px;
+    }
+    .testimonials-v2 p {
+      font-size: 18px;
+    }
+    .container-fluid h1 {
+        margin-top: 700px;
+        font-size: 20px !important;
+    }
+    .card{
+        width: 500px !important;
+        margin-left: 100px !important;
+    }
+    .card a{
+        margin-left: 200px !important;
+    }
+    .card img{
+        margin-left: 200px !important;
+    }
+    /* Adjust the site-footer */
+    .site-footer {
+      padding: 20px;
+    }
+    .site-footer h3 {
+      font-size: 20px;
+    }
+    .site-footer p {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 820px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+        margin-top: 0;
+      }
+      .site-nav .menu-bg-wrap {
+        padding: 20px;
+      }
+      .site-nav ul {
+        flex-direction: column;
+      }
+      .site-nav li {
+        margin-bottom: 20px;
+      }
+      .site-nav a {
+        font-size: 16px;
+      }
+      .logo{
+          margin-top: -20px !important;
+          margin-left: -100px !important;
+          font-size: 20px !important;
+          width: 50px !important;
+  
+      }
+    .site-mobile-menu-header{
+      margin-top: -500px !important;
+      margin-right: -300px !important;
+    }
+  
+    /* Adjust the hero section */
+    .hero {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 20px;
+    }
+    .hero h4 {
+        margin-top: 100px;
+        margin-left: -10px !important;
+      font-size: 15px !important;
+    }
+    .sec-instagram{
+        display: none !important;
+    }
+    .hero h2 {
+
+      font-size: 25px !important;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the section1 */
+    .section1 {
+      padding: 20px;
+    }
+    .section1 h2 {
+      font-size: 30px;
+    }
+    .section1 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the section bg-light */
+    .section.bg-light {
+      padding: 20px;
+    }
+    .section.bg-light h2 {
+      font-size: 30px;
+    }
+    .section.bg-light p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the ebook-intro1 */
+    .ebook-intro1 {
+      padding: 20px;
+      margin-left: 100px !important;
+      margin-top: 900px !important;
+    }
+    .ebook-intro1 h1 {
+      font-size: 30px;
+    }
+    .ebook-intro1 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the services1 */
+    .services1 {
+      padding: 20px;
+    }
+    .services1 h2 {
+      font-size: 30px;
+    }
+    .services1 p {
+      font-size: 18px;
+    }
+  
+    .testimonial-v2, .photoslider{
+        display: none !important;
+    }
+    /* Adjust the photoslider */
+    .photoslider {
+      padding: 20px;
+    }
+    .photoslider h2 {
+      font-size: 30px;
+    }
+    .photoslider p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the testimonials-v2 */
+    .testimonials-v2 {
+      padding: 20px;
+      margin-top: 300px !important;
+    }
+    .testimonials-v2 h2 {
+      font-size: 30px;
+    }
+    .testimonials-v2 p {
+      font-size: 18px;
+    }
+    .container-fluid h1 {
+        margin-top: 700px;
+        font-size: 20px !important;
+    }
+    .container{
+        margin-bottom: 200px ;
+        height: 700px;
+    }
+    .card{
+        height: 700px !important;
+        width: 700px !important;
+        margin-left: 100px !important;
+    }
+    .card a{
+        margin-left: 200px !important;
+    }
+    .card img{
+        margin-left: 200px !important;
+    }
+    /* Adjust the site-footer */
+    .site-footer {
+      padding: 20px;
+    }
+    .site-footer h3 {
+      font-size: 20px;
+    }
+    .site-footer p {
+      font-size: 16px;
+    }
+  }
+  
+  /* For tablet devices (max-width: 991px) */
+  @media only screen and (max-width: 1024px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+      margin-top: 0;
+    }
+    .site-nav .menu-bg-wrap {
+      padding: 20px;
+    }
+    .site-nav ul {
+      flex-direction: column;
+    }
+    .site-nav li {
+      margin-bottom: 20px;
+    }
+    .site-nav a {
+      font-size: 18px;
+    }
+  
+    /* Adjust the hero section */
+    .hero {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 20px;
+    }
+    .hero h2 {
+      font-size: 30px;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+    .container h3{
+      margin-left: 200px;
+    }
+    .container p{
+        margin-left: 50px;
+       
+    }
+  
+    /* Adjust the section1 */
+    .section1 {
+      padding: 20px;
+    }
+    .section1 h2 {
+      font-size: 30px;
+    }
+    .section1 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the section bg-light */
+    .section.bg-light {
+      padding: 20px;
+    }
+    .section.bg-light h2 {
+      font-size: 30px;
+    }
+    .section.bg-light p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the ebook-intro1 */
+    .ebook-intro1 {
+      padding: 20px;
+    }
+    .ebook-intro1 h1 {
+      font-size: 30px;
+    }
+    .ebook-intro1 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the services1 */
+    .services1 {
+      padding: 20px;
+    }
+    .services1 h2 {
+      font-size: 30px;
+    }
+    .services1 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the photoslider */
+    .photoslider {
+      padding: 20px;
+    }
+    .photoslider h2 {
+      font-size: 30px;
+    }
+    .photoslider p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the testimonials-v2 */
+    .testimonials-v2 {
+      padding: 20px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 30px;
+    }
+    .testimonials-v2 p {
+      font-size: 18px;
+    }
+  
+    /* Adjust the site-footer */
+    .site-footer {
+      padding: 20px;
+    }
+    .site-footer h3 {
+      font-size: 20px;
+    }
+    .site-footer p {
+      font-size: 16px;
+    }
+  }
+  
+  /* For desktop devices (max-width: 1199px) */
+  @media only screen and (max-width: 1199px) {
+    /* Adjust the navigation menu */
+    .site-nav {
+      margin-top: 0;
+    }
+    .site-nav .menu-bg-wrap {
+      padding: 20px;
+    }
+    .site-nav ul {
+      flex-direction: column;
+    }
+    .site-nav li {
+      margin-bottom: 20px;
+    }
+    .site-nav a {
+      font-size: 20px;
+    }
+  
+    /* Adjust the hero section */
+    .hero {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 20px;
+    }
+    .hero h2 {
+      font-size: 36px;
+    }
+    .hero p {
+      font-size: 20px;
+    }
+  
+    /* Adjust the section1 */
+    .section1 {
+      padding: 20px;
+    }
+    .section1 h2 {
+      font-size: 36px;
+    }
+    .section1 p {
+      font-size: 20px;
+    }
+  
+    /* Adjust the section bg-light */
+    .section.bg-light {
+      padding: 20px;
+    }
+    .section.bg-light h2 {
+      font-size: 36px;
+    }
+    .section.bg-light p {
+      font-size: 20px;
+    }
+  
+    /* Adjust the ebook-intro1 */
+    .ebook-intro1 {
+      padding: 20px;
+    }
+    .ebook-intro1 h1 {
+      font-size: 36px;
+    }
+    .ebook-intro1 p {
+      font-size: 20px;
+    }
+  
+    /* Adjust the services1 */
+    .services1 {
+      padding: 20px;
+    }
+    .services1 h2 {
+      font-size: 36px;
+    }
+    .services1 p {
+      font-size: 20px;
+    }
+  
+    /* Adjust the photoslider */
+    .photoslider {
+      padding: 20px;
+    }
+    .photoslider h2 {
+      font-size: 36px;
+    }
+    .photoslider p {
+      font-size: 20px;
+    }
+  
+    /* Adjust the testimonials-v2 */
+    .testimonials-v2 {
+      padding: 20px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 36px;
+    }
+    .testimonials-v2 p {
+      font-size: 20px;
+    }
+  
+    /* Adjust the site-footer */
+    .site-footer {
+      padding: 20px;
+    }
+    .site-footer h3 {
+      font-size: 24px;
+    }
+    .site-footer p {
+      font-size: 18px;
+    }
+  }
+  /* Add this CSS code to your existing stylesheet */
+
+/* Responsive Design */
+
+/* For mobile devices (max-width: 767px) */
+@media only screen and (max-width: 375px) {
+    .ebook-intro1 .container {
+      padding: 20px;
+    }
+    .ebook-intro1 h1 {
+      font-size: 24px;
+    }
+    .feature1 {
+      margin-bottom: 20px;
+    }
+    .feature1 h2 {
+      font-size: 18px;
+    }
+    .feature1 p {
+      font-size:  14px;
+    }
+  
+    .services1 .container {
+      padding: 20px;
+      margin-top: 400px !important;
+    }
+    .services1 h2 {
+      font-size: 24px;
+    }
+    .service-item1 {
+      margin-bottom: 20px;
+    }
+    .service-item1 h3 {
+      font-size: 18px;
+    }
+    .service-item1 p {
+      font-size: 14px;
+    }
+  }
+  
+  /* For tablet devices (max-width: 991px) */
+  @media only screen and (max-width: 991px) {
+    .ebook-intro1 .container {
+      padding: 20px;
+    }
+    .ebook-intro1 h1 {
+      font-size: 30px;
+    }
+    .feature1 {
+      margin-bottom: 20px;
+    }
+    .feature1 h2 {
+      font-size: 20px;
+    }
+    .feature1 p {
+      font-size: 16px;
+    }
+  
+    .services1 .container {
+      padding: 20px;
+    }
+    .services1 h2 {
+      font-size: 30px;
+    }
+    .service-item1 {
+      margin-bottom: 20px;
+    }
+    .service-item1 h3 {
+      font-size: 20px;
+    }
+    .service-item1 p {
+      font-size: 16px;
+    }
+  }
+  
+  /* For desktop devices (max-width: 1199px) */
+  @media only screen and (max-width: 1199px) {
+    .ebook-intro1 .container {
+      padding: 20px;
+    }
+    .ebook-intro1 h1 {
+      font-size: 36px;
+    }
+    .feature1 {
+      margin-bottom: 20px;
+    }
+    .feature1 h2 {
+      font-size: 24px;
+    }
+    .feature1 p {
+      font-size: 18px;
+    }
+  
+    .services1 .container {
+      padding: 20px;
+    }
+    .services1 h2 {
+      font-size: 36px;
+    }
+    .service-item1 {
+      margin-bottom: 20px;
+    }
+    .service-item1 h3 {
+      font-size: 24px;
+    }
+    .service-item1 p {
+      font-size: 18px;
+    }
+  }
+
+  /* General Responsive Styling for screens max-width 774px */
+@media only screen and (max-width: 774px) {
+    /* Navigation menu adjustments */
+    .site-nav {
+      margin-top: 0;
+    }
+    .site-nav .menu-bg-wrap {
+      padding: 20px;
+    }
+    .site-nav ul {
+      flex-direction: column;
+    }
+    .site-nav li {
+      margin-bottom: 15px;
+    }
+    .site-nav a {
+      font-size: 16px;
+    }
+    .logo {
+      margin-top: 0 !important;
+      margin-left: 0 !important;
+      font-size: 18px !important;
+      width: auto !important;
+    }
+    .site-mobile-menu-header {
+      margin-top: 0 !important;
+      margin-right: 0 !important;
+    }
+  
+    /* Hero section adjustments */
+    .hero {
+      height: auto;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 15px;
+    }
+    .hero h4 {
+      margin-top: 20px;
+      margin-left: 0 !important;
+      font-size: 15px !important;
+    }
+    .hero h2 {
+      font-size: 22px !important;
+    }
+    .hero p {
+      font-size: 16px;
+    }
+  
+    /* Hide Instagram section */
+    .sec-instagram {
+      display: none !important;
+    }
+  
+    /* Section1 adjustments */
+    .section1 {
+      padding: 15px;
+    }
+    .section1 h2 {
+      font-size: 25px;
+    }
+    .section1 p {
+      font-size: 16px;
+    }
+  
+    /* Section bg-light adjustments */
+    .section.bg-light {
+      padding: 15px;
+    }
+    .section.bg-light h2 {
+      font-size: 25px;
+    }
+    .section.bg-light p {
+      font-size: 16px;
+    }
+  
+    /* Ebook-intro adjustments */
+    .ebook-intro1 {
+      padding: 15px;
+      margin-left: 0 !important;
+    }
+    .ebook-intro1 h1 {
+      font-size: 25px;
+    }
+    .ebook-intro1 p {
+      font-size: 16px;
+    }
+  
+    /* Services adjustments */
+    .services1 {
+      padding: 15px;
+    }
+    .services1 h2 {
+      font-size: 25px;
+    }
+    .services1 p {
+      font-size: 16px;
+    }
+  
+    /* Hide testimonials and photoslider on mobile */
+    .testimonial-v2, .photoslider {
+      display: none !important;
+    }
+  
+    /* Photoslider adjustments */
+    .photoslider h2 {
+      font-size: 25px;
+    }
+    .photoslider p {
+      font-size: 16px;
+    }
+  
+    /* Testimonials adjustments */
+    .testimonials-v2 {
+      padding: 15px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 25px;
+    }
+    .testimonials-v2 p {
+      font-size: 16px;
+    }
+  
+    /* Container adjustments */
+    .container-fluid h1 {
+      margin-top: 100px;
+      font-size: 18px !important;
+    }
+  
+    /* Card adjustments */
+    .card {
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+    .card a, .card img {
+      margin-left: 0 !important;
+    }
+  
+    /* Footer adjustments */
+    .site-footer {
+      padding: 15px;
+    }
+    .site-footer h3 {
+      font-size: 18px;
+    }
+    .site-footer p {
+      font-size: 14px;
+    }
+  }
+  
+  /* For devices between 775px and 991px (tablets) */
+  @media only screen and (min-width: 775px) and (max-width: 991px) {
+    .site-nav {
+      margin-top: 0;
+    }
+    .site-nav ul {
+      flex-direction: column;
+    }
+    .site-nav a {
+      font-size: 18px;
+    }
+  
+    .hero {
+      height: auto;
+      padding: 20px;
+    }
+    .hero h2 {
+      font-size: 28px;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+  
+    .section1 h2, .section.bg-light h2, .ebook-intro1 h1, .services1 h2, .photoslider h2, .testimonials-v2 h2 {
+      font-size: 30px;
+    }
+  
+    .section1 p, .section.bg-light p, .ebook-intro1 p, .services1 p, .photoslider p, .testimonials-v2 p {
+      font-size: 18px;
+    }
+  
+    .container-fluid h1 {
+      margin-top: 200px;
+      font-size: 20px !important;
+    }
+    .testimonial-v2, .photoslider {
+        display: none !important;
+      }
+    .card {
+      width: 90% !important;
+      margin-left: 0 !important;
+    }
+  
+    .card a, .card img {
+      margin-left: 0 !important;
+    }
+  
+    .site-footer h3 {
+      font-size: 20px;
+    }
+    .site-footer p {
+      font-size: 16px;
+    }
+  }
+  
+  /* For desktop screens larger than 992px */
+  @media only screen and (min-width: 992px) {
+    /* Reset hidden sections */
+    .testimonial-v2, .photoslider {
+      display: block !important;
+    }
+  
+    /* You can add any additional styles for large screens here */
+  }
+  

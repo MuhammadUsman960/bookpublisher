@@ -1,0 +1,675 @@
+/* General Responsive Styling for screens between 340px and 550px */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* Navigation menu adjustments */
+    .site-nav {
+      margin-top: 0;
+    }
+    .site-nav .menu-bg-wrap {
+      padding: 15px;
+    }
+    .site-nav ul {
+      flex-direction: column;
+    }
+    .site-nav li {
+      margin-bottom: 10px;
+    }
+    .site-nav a {
+      font-size: 14px;
+    }
+    .logo {
+      margin-top: -500 !important;
+      margin-left: 10!important;
+      font-size: 16px !important;
+      width: auto !important;
+    }
+    .site-mobile-menu-header {
+      margin-top: 0 !important;
+      margin-right: 0 !important;
+    }
+  
+    /* Hero section adjustments */
+    .hero {
+      height: auto;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 10px;
+    }
+    .donation-form{
+        height: 550px !important;
+    }
+    .donation-form h3{
+      font-size: 20px !important;
+      margin-left: -10px !important;
+    }
+    .donation-form p{
+        font-size: 13px !important;
+        margin-left: -10px !important;
+      }
+    .hero h4 {
+      margin-top: 10px;
+      margin-left: 0 !important;
+      font-size: 14px !important;
+    }
+    .hero h2 {
+      font-size: 15px !important;
+    }
+    .hero p {
+      font-size: 14px;
+    }
+  
+    /* Hide Instagram section */
+    .sec-instagram {
+      display: none !important;
+    }
+  
+    /* Section1 adjustments */
+    .section1 {
+      padding: 10px;
+    }
+    .section1 h2 {
+      font-size: 22px;
+    }
+    .section1 p {
+      font-size: 14px;
+    }
+   .containerC .text-content3 h2{
+    margin-left: 30px;
+     font-size: 20px !important;
+   }
+   .containerC .text-content3 p {
+    margin-left: 30px;
+    font-size: 15px !important;
+  }
+  .containerC .image-content3 img{
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+    height: 200px !important;
+    display: none;
+  }
+  .containerC .text-content3 a{
+    margin-top: -20px;
+    margin-left: 50px;
+  }
+    /* Section bg-light adjustments */
+    .section.bg-light {
+      padding: 10px;
+    }
+    .section.bg-light h2 {
+      font-size: 22px;
+    }
+    .section.bg-light p {
+      font-size: 14px;
+    }
+  
+    /* Ebook-intro adjustments */
+    .ebook-intro1 {
+      padding: 10px;
+      margin-left: 0 !important;
+    }
+    .ebook-intro1 h1 {
+      font-size: 22px;
+    }
+    .ebook-intro1 p {
+      font-size: 14px;
+    }
+  
+    /* Services adjustments */
+    .services1 {
+      padding: 10px;
+    }
+    .services1 h2 {
+      font-size: 22px;
+    }
+    .services1 p {
+      font-size: 14px;
+    }
+  
+    /* Hide testimonials and photoslider on small screens */
+    .testimonial-v2, .photoslider {
+      display: none !important;
+    }
+  
+    /* Photoslider adjustments */
+    .photoslider h2 {
+      font-size: 22px;
+    }
+    .photoslider p {
+      font-size: 14px;
+    }
+  
+    /* Testimonials adjustments */
+    .testimonials-v2 {
+      padding: 10px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 22px;
+    }
+    .testimonials-v2 p {
+      font-size: 14px;
+    }
+    .containergrid h2{
+      font-size: 20px !important;
+      
+    }
+    .containergrid{
+      width: 300px !important;
+      height: 500x !important;
+    }
+
+    .grid-item{
+      width:360px !important;
+      height: 170px !important;
+      font-size: 15px !important;
+    }
+    .containergrid .image-container{
+      height: 200px !important ;
+      width: 300px !important;
+    }
+    
+    /* Container adjustments */
+    .container-fluid  {
+      margin-top: 200px !important;
+      font-size: 16px !important;
+    }
+  
+    /* Card adjustments */
+    .card {
+      height: 300px !important;
+      width: 400px !important;
+    }
+    .card p{
+      font-size: 12px !important;
+    }
+    .card .btn a{
+      margin-top: -20px !important;
+      margin-left: 800px !important;
+    }
+  
+    /* Footer adjustments */
+    .site-footer {
+      padding: 10px;
+    }
+    .site-footer h3 {
+      font-size: 16px;
+    }
+    .site-footer p {
+      font-size: 12px;
+    }
+  }
+
+
+
+  
+  
+  /* General Responsive Styling for screens max-width 774px */
+  @media only screen and (max-width: 493px) {
+    /* Navigation menu adjustments */
+    .site-nav {
+      margin-top: 0;
+    }
+    .site-nav .menu-bg-wrap {
+      padding: 20px;
+    }
+    .site-nav ul {
+      flex-direction: column;
+    }
+    .site-nav li {
+      margin-bottom: 15px;
+    }
+    .site-nav a {
+      font-size: 16px;
+    }
+    .logo {
+      margin-top: 0 !important;
+      margin-left: 0 !important;
+      font-size: 18px !important;
+      width: auto !important;
+    }
+    .site-mobile-menu-header {
+      margin-top: 0 !important;
+      margin-right: 0 !important;
+    }
+  
+    /* Hero section adjustments */
+    .hero {
+      height: auto;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 15px;
+    }
+    .hero h4 {
+      margin-top: 20px;
+      margin-left: 0 !important;
+      font-size: 15px !important;
+    }
+    .hero h2 {
+      font-size: 22px !important;
+    }
+    .hero p {
+      font-size: 16px;
+    }
+  
+    /* Hide Instagram section */
+    .sec-instagram {
+      display: none !important;
+    }
+  
+    /* Section1 adjustments */
+    .section1 {
+      padding: 15px;
+    }
+    .section1 h2 {
+      font-size: 25px;
+    }
+    .section1 p {
+      font-size: 16px;
+    }
+  
+    /* Section bg-light adjustments */
+    .section.bg-light {
+      padding: 15px;
+    }
+    .section.bg-light h2 {
+      font-size: 25px;
+    }
+    .section.bg-light p {
+      font-size: 16px;
+    }
+  
+    /* Ebook-intro adjustments */
+    .ebook-intro1 {
+      padding: 15px;
+      margin-left: 0 !important;
+    }
+    .ebook-intro1 h1 {
+      font-size: 25px;
+    }
+    .ebook-intro1 p {
+      font-size: 16px;
+    }
+  
+
+    /* Services adjustments */
+    .services1 {
+      padding: 15px;
+    }
+    .services1 h2 {
+      font-size: 25px;
+    }
+    .services1 p {
+      font-size: 16px;
+    }
+  
+    /* Hide testimonials and photoslider on mobile */
+    .testimonial-v2, .photoslider {
+      display: none !important;
+    }
+  
+    /* Photoslider adjustments */
+    .photoslider h2 {
+      font-size: 25px;
+    }
+    .photoslider p {
+      font-size: 16px;
+    }
+  
+    /* Testimonials adjustments */
+    .testimonials-v2 {
+      padding: 15px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 25px;
+    }
+    .testimonials-v2 p {
+      font-size: 16px;
+    }
+  
+    /* Container adjustments */
+    
+    .grid-item{
+      width:335px !important;
+      height: 170px !important;
+      font-size: 15px !important;
+    }
+    .containergrid .image-container{
+      height: 200px !important ;
+      width: 300px !important;
+
+ 
+    }
+    
+    /* Container adjustments */
+    .container-fluid h1 {
+      margin-top: 50px;
+      font-size: 16px !important;
+    }
+  
+    /* Card adjustments */
+    .card {
+      height: 300px !important;
+      width: 300px !important;
+    }
+    .card p{
+      font-size: 12px !important;
+    }
+    .card .btn a{
+      margin-top: -20px !important;
+      margin-left: 700px !important;
+    }
+   
+  
+    /* Footer adjustments */
+    .site-footer {
+      padding: 15px;
+    }
+    .site-footer h3 {
+      font-size: 18px;
+    }
+    .site-footer p {
+      font-size: 14px;
+    }
+  }
+
+  /* General Responsive Styling for screens between 340px and 550px */
+@media only screen and (min-width: 340px) and (max-width: 550px) {
+    /* Navigation menu adjustments */
+    .site-nav {
+      margin-top: 0;
+    }
+    .site-nav .menu-bg-wrap {
+      padding: 15px;
+    }
+    .site-nav ul {
+      flex-direction: column;
+    }
+    .site-nav li {
+      margin-bottom: 10px;
+    }
+    .site-nav a {
+      font-size: 14px;
+    }
+    .logo {
+      margin-top: 0 !important;
+      margin-left: 0 !important;
+      font-size: 16px !important;
+      width: auto !important;
+    }
+    .site-mobile-menu-header {
+      margin-top: 0 !important;
+      margin-right: 0 !important;
+    }
+  
+    /* Hero section adjustments */
+    .hero {
+      height: auto;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 10px;
+    }
+    .hero h4 {
+      margin-top: 10px;
+      margin-left: 0 !important;
+      font-size: 14px !important;
+    }
+    .hero h2 {
+      font-size: 18px !important;
+    }
+    .hero p {
+      font-size: 14px;
+    }
+  
+    /* Hide Instagram section */
+    .sec-instagram {
+      display: none !important;
+    }
+  
+    /* Section1 adjustments */
+    .section1 {
+      padding: 10px;
+    }
+    .section1 h2 {
+      font-size: 22px;
+    }
+    .section1 p {
+      font-size: 14px;
+    }
+  
+    /* Section bg-light adjustments */
+    .section.bg-light {
+      padding: 10px;
+    }
+    .section.bg-light h2 {
+      font-size: 22px;
+    }
+    .section.bg-light p {
+      font-size: 14px;
+    }
+  
+    /* Ebook-intro adjustments */
+    .ebook-intro1 {
+      padding: 10px;
+      margin-left: 0 !important;
+    }
+    .ebook-intro1 h1 {
+      font-size: 22px;
+    }
+    .ebook-intro1 p {
+      font-size: 14px;
+    }
+  
+    /* Services adjustments */
+    .services1 {
+      padding: 10px;
+    }
+    .services1 h2 {
+      font-size: 22px;
+    }
+    .services1 p {
+      font-size: 14px;
+    }
+  
+    /* Hide testimonials and photoslider on small screens */
+    .testimonial-v2, .photoslider {
+      display: none !important;
+    }
+  
+    /* Photoslider adjustments */
+    .photoslider h2 {
+      font-size: 22px;
+    }
+    .photoslider p {
+      font-size: 14px;
+    }
+  
+    /* Testimonials adjustments */
+    .testimonials-v2 {
+      padding: 10px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 22px;
+    }
+    .testimonials-v2 p {
+      font-size: 14px;
+    }
+  
+    /* Container adjustments */
+    .container-fluid h1 {
+      margin-top: 50px;
+      font-size: 16px !important;
+    }
+  
+    /* Card adjustments */
+    .card {
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+  
+  
+    /* Footer adjustments */
+    .site-footer {
+      padding: 10px;
+    }
+    .site-footer h3 {
+      font-size: 16px;
+    }
+    .site-footer p {
+      font-size: 12px;
+    }
+  }
+  
+  /* General Responsive Styling for screens max-width 774px */
+  @media only screen and (max-width: 774px) {
+    /* Navigation menu adjustments */
+    .site-nav {
+      margin-top: 0;
+    }
+    .site-nav .menu-bg-wrap {
+      padding: 20px;
+    }
+    .site-nav ul {
+      flex-direction: column;
+    }
+    .site-nav li {
+      margin-bottom: 15px;
+    }
+    .site-nav a {
+      font-size: 16px;
+    }
+    .logo {
+      margin-top: 0 !important;
+      margin-left: 0 !important;
+      font-size: 18px !important;
+      width: auto !important;
+    }
+    .site-mobile-menu-header {
+      margin-top: 0 !important;
+      margin-right: 0 !important;
+    }
+  
+    /* Hero section adjustments */
+    .hero {
+      height: auto;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .container {
+      padding: 15px;
+    }
+    .hero h4 {
+      margin-top: 20px;
+      margin-left: 0 !important;
+      font-size: 15px !important;
+    }
+    .hero h2 {
+      font-size: 22px !important;
+    }
+    .hero p {
+      font-size: 16px;
+    }
+  
+    /* Hide Instagram section */
+    .sec-instagram {
+      display: none !important;
+    }
+  
+    /* Section1 adjustments */
+    .section1 {
+      padding: 15px;
+    }
+    .section1 h2 {
+      font-size: 25px;
+    }
+    .section1 p {
+      font-size: 16px;
+    }
+  
+    /* Section bg-light adjustments */
+    .section.bg-light {
+      padding: 15px;
+    }
+    .section.bg-light h2 {
+      font-size: 25px;
+    }
+    .section.bg-light p {
+      font-size: 16px;
+    }
+  
+    /* Ebook-intro adjustments */
+    .ebook-intro1 {
+      padding: 15px;
+      margin-left: 0 !important;
+    }
+    .ebook-intro1 h1 {
+      font-size: 25px;
+    }
+    .ebook-intro1 p {
+      font-size: 16px;
+    }
+  
+    /* Services adjustments */
+    .services1 {
+      padding: 15px;
+    }
+    .services1 h2 {
+      font-size: 25px;
+    }
+    .services1 p {
+      font-size: 16px;
+    }
+  
+    /* Hide testimonials and photoslider on mobile */
+    
+  
+    /* Photoslider adjustments */
+    .photoslider h2 {
+      font-size: 25px;
+    }
+    .photoslider p {
+      font-size: 16px;
+    }
+  
+    /* Testimonials adjustments */
+    .testimonials-v2 {
+      padding: 15px;
+    }
+    .testimonials-v2 h2 {
+      font-size: 25px;
+    }
+    .testimonials-v2 p {
+      font-size: 16px;
+    }
+  
+    /* Container adjustments */
+    .container-fluid h1 {
+      margin-top: 100px;
+      font-size: 18px !important;
+    }
+  
+    /* Card adjustments */
+    .card {
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+  
+  
+    /* Footer adjustments */
+    .site-footer {
+      padding: 15px;
+    }
+    .site-footer h3 {
+      font-size: 18px;
+    }
+    .site-footer p {
+      font-size: 14px;
+    }
+  }
+
+  
+
+  
